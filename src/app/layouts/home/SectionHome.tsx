@@ -28,7 +28,7 @@ const SectionHome: React.FC = () => {
 
         <div className="md:w-1/3 flex md:justify-end">
           <Link
-            href="mailto:INFO@ESTPOPULO.COM"
+            href="mailto:INFO@FOODLIST.COM"
             className="text-xs font-bold uppercase underline transition-opacity md:text-sm decoration-1 underline-offset-4 hover:opacity-70"
           >
             INFO@FOODLIST.COM
