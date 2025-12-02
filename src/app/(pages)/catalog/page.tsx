@@ -1,9 +1,9 @@
-import SectionHome from "@/app/layouts/home/SectionHome"
+import SectionCatalog from "@/app/layouts/catalog/SectionCatalog"
 
 export default function Pages() {
   return (
     <div className="relative">
-      <SectionHome />
+      <SectionCatalog />
     </div>
   );
 }

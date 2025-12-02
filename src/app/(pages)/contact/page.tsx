@@ -1,9 +1,9 @@
-import SectionHome from "@/app/layouts/home/SectionHome"
+import SectionContact from "@/app/layouts/contact/SectionContact";
 
 export default function Pages() {
   return (
     <div className="relative">
-      <SectionHome />
+      <SectionContact />
     </div>
   );
 }
