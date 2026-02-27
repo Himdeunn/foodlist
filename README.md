@@ -1,10 +1,13 @@
-# 🍲 Foodlist — A Clean, Focused Food Management App
+# Foodlist — A Clean, Focused Food Management App
 
 [![GitHub Stars](https://img.shields.io/github/stars/Himdeunn/foodlist)](https://github.com/Himdeunn/foodlist/stargazers) [![Stack](https://img.shields.io/badge/Stack-Frontend-blue.svg)](https://github.com/Himdeunn) [![Design](https://img.shields.io/badge/Design-UI%2FUX-orange.svg)](https://github.com/Himdeunn)
 
+> *Disclaimer: This project still updating, whenever someone can clone or contribution this repository, make sure following guide at below*
+
 Foodlist is a modern web app built to help you organize, manage, and explore food items with ease. It's a project that blends clean interface design with solid frontend architecture — the goal being a simple, intuitive experience for anyone working with food data.
 
-🔗 **Live Demo:** [foodlist.himdeunn.my.id](https://foodlist.himdeunn.my.id)
+![Foodlist Project Preview](./public/img/bg/foodlist.png)
+### **Live Demo:** [View Live Site Here](https://https://neo-blog.himdeunn.my.id/)
 
 ---
 
