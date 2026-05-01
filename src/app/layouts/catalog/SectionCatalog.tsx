@@ -135,7 +135,7 @@ const SectionCatalog: React.FC = () => {
                   ${i === 3 ? "lg:row-span-2" : "lg:row-span-1"}`}
                 />
               ))
-            : displayRecipes.map((item, index) => {
+            : Array.isArray(displayRecipes) && displayRecipes.map((item, index) => {
                 // Bento logic remains the same for the first few items
                 const isLarge = index === 0 || index === 6;
                 const isTall = index === 3;

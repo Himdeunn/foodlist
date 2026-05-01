@@ -100,7 +100,7 @@ export default function DashboardPage() {
           </div>
         ) : (
           <div className="grid grid-cols-1 gap-4">
-            {foods.map((food) => (
+            {Array.isArray(foods) && foods.map((food) => (
               <div
                 key={food.key}
                 className="group flex items-center gap-6 p-4 bg-white dark:bg-black/20 rounded-[2rem] border border-neutral-200 dark:border-neutral-800 hover:border-neutral-400 dark:hover:border-neutral-600 transition-all"

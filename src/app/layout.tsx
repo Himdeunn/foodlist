@@ -70,7 +70,7 @@ export default function RootLayout({
         {/* <!-- Favicon --> */}
         <link
           rel="shortcut icon"
-          href="/img/icon/favicon.jpg"
+          href="/img/icon/favicon.png"
           type="image/jpeg"
         />
       </head>
