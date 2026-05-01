@@ -1,3 +1,5 @@
+import { addCustomFood } from "./neon";
+
 export interface Recipe {
   key: string;
   title: string;
@@ -98,3 +100,8 @@ export const STATIC_RECIPES: Recipe[] = [
     category: "Grill",
   },
 ];
+
+export const syncToCloud = async (recipe: Recipe) => {
+  const { key, ...foodData } = recipe;
+  return await addCustomFood(foodData);
+};
