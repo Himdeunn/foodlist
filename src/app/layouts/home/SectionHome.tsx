@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Image from "next/image"; // Uncomment jika sudah ada gambar
+import Image from "next/image";
 import Link from "next/link";
 
 const SectionHome: React.FC = () => {
@@ -20,9 +20,9 @@ const SectionHome: React.FC = () => {
             data-scroll-speed="1"
             className="text-3xl font-bold leading-tight tracking-tight md:text-4xl"
           >
-            A new reciepes for
+            A new recipe for
             <br />
-            high people dishes
+            high-end dishes
           </h2>
         </div>
 
@@ -48,7 +48,7 @@ const SectionHome: React.FC = () => {
           >
             <Image
               src="https://i.pinimg.com/736x/ed/80/de/ed80decb556deb9245a88f793c8de392.jpg"
-              alt="Est Populo Art"
+              alt="Food Art"
               fill
               className="object-cover"
             />
@@ -60,11 +60,11 @@ const SectionHome: React.FC = () => {
             data-scroll-speed="1.5"
             className="absolute sm:hidden lg:block top-8 -right-16 sm:-right-24 md:-right-32 text-[0.65rem] sm:text-xs font-bold leading-relaxed uppercase tracking-wide text-right"
           >
-            {"VICTORIA'S"}
+            TRADITIONAL
             <br />
-            SECRET
+            CUISINE
             <br />
-            <span className="opacity-60">2018</span>
+            <span className="opacity-60">2026</span>
           </div>
         </div>
       </section>

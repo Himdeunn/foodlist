@@ -42,14 +42,14 @@ const SectionCatalog: React.FC = () => {
               Each recipe is a testament to cultural heritage and culinary mastery.
             </p>
             <Link
-              href="/recipes"
+              href="/catalog"
               className="group relative inline-flex items-center px-10 py-5 text-lg font-bold border rounded-full overflow-hidden transition-all
               border-[#1a1a1a] text-[#1a1a1a]
               dark:border-[#EAE8E1] dark:text-[#EAE8E1]"
             >
               <span className="absolute inset-0 w-full h-full bg-[#1a1a1a] dark:bg-[#EAE8E1] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
               <span className="relative group-hover:text-[#EAE8E1] dark:group-hover:text-[#1a1a1a] transition-colors duration-300">
-                Explore All Recipes
+                Refresh Catalog
               </span>
             </Link>
           </div>
@@ -100,7 +100,7 @@ const SectionCatalog: React.FC = () => {
                         </span>
                         <div className="flex gap-2">
                            <span className="text-[10px] font-black uppercase bg-[#EAE8E1] text-[#1a1a1a] px-2 py-0.5 rounded-sm">
-                            {item.dificulty}
+                            {item.difficulty}
                           </span>
                         </div>
                       </div>

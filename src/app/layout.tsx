@@ -71,7 +71,7 @@ export default function RootLayout({
         <link
           rel="shortcut icon"
           href="/img/icon/favicon.jpg"
-          type="image/svg+xml"
+          type="image/jpeg"
         />
       </head>
       <body

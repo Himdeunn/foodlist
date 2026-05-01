@@ -4,7 +4,7 @@ export interface Recipe {
   thumb: string;
   times: string;
   portion: string;
-  dificulty: string;
+  difficulty: string;
   category: string;
 }
 
@@ -64,7 +64,7 @@ export const fetchGlobalRecipes = async (): Promise<Recipe[]> => {
         thumb: res.image,
         times: `${res.readyInMinutes} mnt`,
         portion: `${res.servings} Porsi`,
-        dificulty: difficulty,
+        difficulty: difficulty,
         // Ambil kategori pertama jika ada, jika tidak default ke 'Main Course'
         category: res.dishTypes?.[0] 
           ? res.dishTypes[0].charAt(0).toUpperCase() + res.dishTypes[0].slice(1) 
@@ -85,7 +85,7 @@ export const STATIC_RECIPES: Recipe[] = [
     thumb: "https://i.pinimg.com/736x/8c/24/9f/8c249f1c5a07371b5ae0f36fe7a13692.jpg",
     times: "4 Jam",
     portion: "4 Porsi",
-    dificulty: "Sulit",
+    difficulty: "Sulit",
     category: "Main Course",
   },
   {
@@ -94,7 +94,7 @@ export const STATIC_RECIPES: Recipe[] = [
     thumb: "https://i.pinimg.com/1200x/8a/0b/b9/8a0bb90c9124817be2045da8a4c4e98e.jpg",
     times: "45 mnt",
     portion: "2 Porsi",
-    dificulty: "Sedang",
+    difficulty: "Sedang",
     category: "Grill",
   },
 ];
