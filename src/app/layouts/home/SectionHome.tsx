@@ -28,10 +28,10 @@ const SectionHome: React.FC = () => {
 
         <div className="md:w-1/3 flex md:justify-end">
           <Link
-            href="mailto:INFO@FOODLIST.COM"
+            href="mailto:INFO@BENTOHUB.COM"
             className="text-xs font-bold uppercase underline transition-opacity md:text-sm decoration-1 underline-offset-4 hover:opacity-70"
           >
-            INFO@FOODLIST.COM
+            INFO@BENTOHUB.COM
           </Link>
         </div>
       </div>
@@ -77,7 +77,7 @@ const SectionHome: React.FC = () => {
           // Text fluid (vw) agar responsif masif
           className="text-[15vw] font-black leading-none tracking-tighter text-center lowercase whitespace-nowrap transform translate-y-[5%]"
         >
-          food list
+          bento hub
         </h1>
       </section>
     </main>

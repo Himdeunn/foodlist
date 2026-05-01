@@ -6,6 +6,7 @@ import { Stalinist_One, Pridi, Zen_Dots, Goldman } from "next/font/google";
 import "locomotive-scroll/dist/locomotive-scroll.css";
 
 import Navbar from "@/app/layouts/Navbar"
+import Preloader from "@/components/Preloader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -47,7 +48,7 @@ const goldman = Goldman({
 });
 
 export const metadata: Metadata = {
-  title: "FoodList",
+  title: "Bento Hub | Modern Food Management",
   description: "Heyy!! You wanna search some food in Indonesia?",
 };
 
@@ -59,13 +60,14 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <title>Bento Hub | Modern Food Management</title>
         <meta
           name="keywords"
-          content="FoodList in Indonesia"
+          content="Bento Hub, Food Management, Recipe Archive"
         />
         <meta
           name="description"
-          content="The official portfolio site of Tegar Aprilian aka Kim Himdeunn – Software Engineering, Business, Tech Enthusiasts based in Indonesia."
+          content="Bento Hub – The official platform for your extraordinary culinary journey. Managed by Tegar Aprilian."
         />
         {/* <!-- Favicon --> */}
         <link
@@ -78,6 +80,7 @@ export default function RootLayout({
         data-scroll-container
         className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} ${stalinist.variable} ${pridi.variable} ${zendots.variable} ${goldman.variable} antialiased`}
       >
+        <Preloader />
         <div className="antialiased">{children}</div>
         <Navbar />
       </body>
